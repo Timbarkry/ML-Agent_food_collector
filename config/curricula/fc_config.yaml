@@ -1,0 +1,8 @@
+FoodCollectorLearning:
+  measure: reward
+  thresholds: [7.5, 15]
+  min_lesson_length: 80
+  signal_smoothing: true
+  parameters:
+    no_of_bad_food: [10, 20, 30]
+    no_of_good_food: [20, 30, 30]
